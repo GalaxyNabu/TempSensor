@@ -9,8 +9,10 @@ print("local time is %s " %str(time.localtime())) #-- convert seconds since Epoc
 
 print("time is %s " %time.asctime(time.localtime()))
 
+#making change 
+
 #time.ctime() #-- convert time in seconds to string
 #time.mktime(A) #-- convert local time tuple to seconds since Epoch
 #time.strftime(A) #-- convert time tuple to string according to format specification
-#time.strptime(A) #-- parse string to time tuple according to format specification
+
 
